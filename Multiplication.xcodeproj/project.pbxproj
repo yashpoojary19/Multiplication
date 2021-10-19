@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B65429B3271D7299006EE036 /* MultiplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65429B2271D7299006EE036 /* MultiplicationApp.swift */; };
-		B65429B5271D7299006EE036 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65429B4271D7299006EE036 /* ContentView.swift */; };
 		B65429B7271D729D006EE036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65429B6271D729D006EE036 /* Assets.xcassets */; };
 		B65429BA271D729D006EE036 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65429B9271D729D006EE036 /* Preview Assets.xcassets */; };
 		B65429C4271D729D006EE036 /* MultiplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65429C3271D729D006EE036 /* MultiplicationTests.swift */; };
 		B65429CE271D729D006EE036 /* MultiplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65429CD271D729D006EE036 /* MultiplicationUITests.swift */; };
 		B65429D0271D729D006EE036 /* MultiplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65429CF271D729D006EE036 /* MultiplicationUITestsLaunchTests.swift */; };
+		B65429DF271D9C67006EE036 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65429DE271D9C67006EE036 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		B65429AF271D7299006EE036 /* Multiplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multiplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65429B2271D7299006EE036 /* MultiplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationApp.swift; sourceTree = "<group>"; };
-		B65429B4271D7299006EE036 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B65429B6271D729D006EE036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B65429B9271D729D006EE036 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B65429BF271D729D006EE036 /* MultiplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		B65429C9271D729D006EE036 /* MultiplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65429CD271D729D006EE036 /* MultiplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationUITests.swift; sourceTree = "<group>"; };
 		B65429CF271D729D006EE036 /* MultiplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B65429DE271D9C67006EE036 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +94,8 @@
 		B65429B1271D7299006EE036 /* Multiplication */ = {
 			isa = PBXGroup;
 			children = (
+				B65429DE271D9C67006EE036 /* ContentView.swift */,
 				B65429B2271D7299006EE036 /* MultiplicationApp.swift */,
-				B65429B4271D7299006EE036 /* ContentView.swift */,
 				B65429B6271D729D006EE036 /* Assets.xcassets */,
 				B65429B8271D729D006EE036 /* Preview Content */,
 			);
@@ -257,8 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B65429B5271D7299006EE036 /* ContentView.swift in Sources */,
 				B65429B3271D7299006EE036 /* MultiplicationApp.swift in Sources */,
+				B65429DF271D9C67006EE036 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
